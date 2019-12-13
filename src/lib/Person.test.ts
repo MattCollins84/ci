@@ -13,3 +13,10 @@ test('Expect person to initialise with name Steve', () => {
   expect(person.name).toBe('Steve')
 
 })
+
+test('Expect person to initialise with name Penny', () => {
+
+  const person = new Person('Steve')
+  expect(person.name).toBe('Penny')
+
+})
