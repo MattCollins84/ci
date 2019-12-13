@@ -10,7 +10,7 @@ test('Expect person to initialise with name Steve', () => {
     expect(person.name).toBe('Steve');
 });
 test('Expect person to initialise with name Penny', () => {
-    const person = new Person_1.default('Steve');
+    const person = new Person_1.default('Penny');
     expect(person.name).toBe('Penny');
 });
 //# sourceMappingURL=Person.test.js.map
