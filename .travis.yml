@@ -4,6 +4,11 @@ node_js:
  - 12.9.1
 install:
 - npm ci
+# safelist
+branches:
+  only:
+  - master
+  - stable
 # keep the npm cache around to speed up installs
 cache:
   directories:
