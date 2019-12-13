@@ -1,0 +1,32 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "description": "Testing CI",
+  "main": "build/app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattCollins84/ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattCollins84/ci/issues"
+  },
+  "homepage": "https://github.com/MattCollins84/ci#readme",
+  "dependencies": {
+    "source-map-support": "^0.5.16"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.17",
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "roots": [
+      "build/lib"
+    ]
+  }
+}
