@@ -16,7 +16,7 @@ test('Expect person to initialise with name Steve', () => {
 
 test('Expect person to initialise with name Penny', () => {
 
-  const person = new Person('Steve')
+  const person = new Person('Penny')
   expect(person.name).toBe('Penny')
 
 })
