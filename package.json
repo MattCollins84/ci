@@ -4,7 +4,8 @@
   "description": "Testing CI",
   "main": "build/app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node build/app.js"
   },
   "repository": {
     "type": "git",
